@@ -62,5 +62,6 @@ A terraform file that contains the creation of the required assets such as the p
 2. Explain serverless architecture. What are its pros and cons?
     Serverless architecture such as dataflow in GCP are very benefitial if one needs to run the pipeline with minimal amount of maintenance of the infrastructure. The pro is that you get a solution out of the box with minimal maintenance and the con is that one does not have as much flexibility with it to costomize it towards what one needs and therefore it might be a little bit hard to deal with for customization.
 3. Please provide a diagram for an ETL pipeline (e.g., Section 2) using serverless AWS services. Describe each component and its function within the pipeline.
-    Since I have more experience with GCP I will do this with that
+    Since I have more experience with GCP I will do this with that. I will use the dataflow that would read the data and would apply some cleaning on it and outputs the data in BQ. both these services are serverless and do not need any maintenance and they would give you out of the box logging and monitoring.
 4. Describe modern MLOps and how organizations should be approaching management from a tool and system perspective.
+    
