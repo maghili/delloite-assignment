@@ -54,3 +54,13 @@ Creating a dockerfile, would be very good for the containerization of the code, 
 A terraform file that contains the creation of the required assets such as the postgres instance would be very good in this case.
 
 
+# Questionare
+
+
+1. What is a Data Lake? Explain its benefits, how it differs from a data warehouse, and how it might benefit a client.
+    A data lake is usually the storage that is used for the files and raw data, and a datawarehouse is usually a sql or nosql where the data is kept in the format to be used for the application purposes. data warehouse allows one to draw insight out of the data and it should be designed according to the rquirements of the project
+2. Explain serverless architecture. What are its pros and cons?
+    Serverless architecture such as dataflow in GCP are very benefitial if one needs to run the pipeline with minimal amount of maintenance of the infrastructure. The pro is that you get a solution out of the box with minimal maintenance and the con is that one does not have as much flexibility with it to costomize it towards what one needs and therefore it might be a little bit hard to deal with for customization.
+3. Please provide a diagram for an ETL pipeline (e.g., Section 2) using serverless AWS services. Describe each component and its function within the pipeline.
+    Since I have more experience with GCP I will do this with that
+4. Describe modern MLOps and how organizations should be approaching management from a tool and system perspective.
